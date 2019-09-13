@@ -1,5 +1,3 @@
 #!/bin/bash
-sudo apt-get update
-sudo apt install docker.io
-touch myextensionscript.txt
-echo "hello world..." > hello.txt
+touch /home/adm_conductor/myextensionscript.txt
+echo "hello world..." > /home/adm_conductor/hello.txt
